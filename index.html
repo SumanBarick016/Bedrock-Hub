@@ -1,13 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bedrock Hub - Archived Bedrock Edition Store</title>
+    <meta name="description" content="Explore the legacy of Bedrock content at Bedrock Hub">
+    
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <nav class="container">
+            <div class="logo">Bedrock Hub</div>
+            <ul class="nav-links">
+                <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#"><i class="fas fa-archive"></i> Archives</a></li>
+                <li><a href="#"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="#"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <button id="theme-toggle" aria-label="Toggle Dark Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <a href="#"><i class="fas fa-home"></i> Home</a>
+            <a href="#"><i class="fas fa-archive"></i> Archives</a>
+            <a href="#"><i class="fas fa-info-circle"></i> About</a>
+            <a href="#"><i class="fas fa-envelope"></i> Contact</a>
+        </div>
+    </header>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h1>Welcome to Bedrock Hub</h1>
+                <p>Explore the legacy of Bedrock content</p>
+                <button class="btn-primary">Browse Archives</button>
+            </div>
+        </section>
 
+        <!-- Ad Space -->
+        <section class="ad-space">
+            <div class="container">
+                <div class="ad-container">
+                    <p class="ad-label">Advertisement Space</p>
+                    <div class="ad-placeholder">
+                        <span>Auto Ads (Google AdSense)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Content -->
+        <section class="featured">
+            <div class="container">
+                <h2>Featured Content</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <h3>Bedrock Edition 1.0</h3>
+                        <p>Explore the features and content from Bedrock Edition version 1.0, now archived for historical reference.</p>
+                        <button class="btn-secondary">View Details</button>
+                    </div>
+                    <div class="card">
+                        <h3>Bedrock Edition 2.0</h3>
+                        <p>Explore the features and content from Bedrock Edition version 2.0, now archived for historical reference.</p>
+                        <button class="btn-secondary">View Details</button>
+                    </div>
+                    <div class="card">
+                        <h3>Bedrock Edition 3.0</h3>
+                        <p>Explore the features and content from Bedrock Edition version 3.0, now archived for historical reference.</p>
+                        <button class="btn-secondary">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <div class="container">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter for updates on new archive additions and features.</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Your email address">
+                    <button class="btn-primary">Subscribe</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Bedrock Hub. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fas fa-home"></i></a>
+                <a href="#"><i class="fas fa-archive"></i></a>
+                <a href="#"><i class="fas fa-info-circle"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
-
